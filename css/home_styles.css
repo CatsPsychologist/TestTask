@@ -281,6 +281,9 @@
 }
 .info_description{
     padding: 40px 12px;
+
+    display: flex;
+    flex-direction: column;
 }
 .info_article{
     position: relative;
@@ -356,6 +359,9 @@
 .product_container{
     max-width: 768px;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
 }
 .product_article,
 .product_info{
@@ -384,6 +390,12 @@
 
     display: flex;
     margin: 0 auto;
+}
+.btn_secondary:active{
+    border: 1px solid #5b5b5b;
+    background: black;
+    opacity: 0.9;
+    color: #5b5b5b;
 }
 /*footer section*/
 .footer{
