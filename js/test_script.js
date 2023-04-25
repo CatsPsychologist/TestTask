@@ -38,7 +38,7 @@ setTimeout(function init(){
     checkRadio(quiz, nextBtn)
 
     document.getElementById('progress_bar').value = progressBarStep;
-},3000)
+},1000)
 
 function checkRadio(selector, btn){
 
@@ -95,7 +95,7 @@ function showResult(){
     setTimeout(()=>{
         document.querySelector('.test_results').classList.add('hide');
         document.querySelector('.footer_test').classList.remove('hide')
-    },1)
+    }, 3000)
 
     const parentMarkUp = document.querySelector('.test_wrapper');
 
