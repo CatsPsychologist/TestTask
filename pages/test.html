@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <label class="menu-button-container " for="menu-toggle">
+                    <div class="menu-button"></div>
+                </label>
+                <img src="images/brain_logo.svg" alt="brain image" class="header_logo">
+                <h2 CLASS="header_article">ТЕСТ НА ОПРЕДЕЛЕНИЕ IQ</h2>
+            </div>
+            <input class="mobile input_checkbox" id="menu-toggle" type="checkbox">
+            <div class="header_pop_up">
+                <label class="close-container" for="menu-toggle">
+                    <div class="close"></div>
+                </label>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_list_item">
+                            <a href="#home" class="header_list_link">
+                                ГЛАВНАЯ
+                            </a>
+                        </li>
+                        <li class="header_list_item">
+                            <a href="#home" class="header_list_link">
+                                ИНФОРМАЦИЯ О ТЕСТЕ
+                            </a>
+                        </li>
+                        <li class="header_list_item">
+                            <a href="#test" class="header_list_link">
+                                ПРОЙТИ ТЕСТ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="test_results hide">
+        <h2 class="result_article">
+            Обработка результатов
+        </h2>
+        <div class="loader">
+            <div class="dot-spinner ">
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+                <div class="dot-spinner__dot"></div>
+            </div>
+        </div>
+        <p class="result_text ">
+            Определение стиля мышления...........
+            .... ...................................................
+        </p>
+    </div>
+
+
+    <div class="test">
+        <div class="test_wrapper">
+            <progress id="progress_bar" max="100" class="progress_bar"> 70% </progress>
+            <ul class="quiz">
+
+            </ul>
+
+            <button type="submit" id="testBtn" class="btn test_btn" disabled>ДАЛЕЕ</button>
+
+        </div>
+    </div>
+
+    <footer class="footer_test ">
+        <p class="footer_info">TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI CA AVETI 18 ANI IMPLINITI</p>
+    </footer>
+
+</body>
+</html>
