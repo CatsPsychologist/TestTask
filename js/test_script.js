@@ -38,7 +38,7 @@ setTimeout(function init(){
     checkRadio(quiz, nextBtn)
 
     document.getElementById('progress_bar').value = progressBarStep;
-},100)
+},3000)
 
 function checkRadio(selector, btn){
 
